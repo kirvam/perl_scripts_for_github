@@ -1,0 +1,203 @@
+$VAR1 = {
+          '0' => 'First Entry/Header.'
+        };
+---< Start >----
+here dir: ^.^
+here pattern: ^utili^
+--- ./utilization__aws.txt, utili
+--- ./utilization__azure.txt, utili
+--- ./utilization__vtdctr.txt, utili
+--- ./utilization__vtpvt.txt, utili
+./utilization__aws.txt
+./utilization__azure.txt
+./utilization__vtdctr.txt
+./utilization__vtpvt.txt
+Anon item: ./utilization__aws.txt
+Anon item: ./utilization__azure.txt
+Anon item: ./utilization__vtdctr.txt
+Anon item: ./utilization__vtpvt.txt
+Dumper
+$VAR1 = {
+          '0' => 'First Entry/Header.'
+        };
+$VAR1 = \{
+            '0' => 'First Entry/Header.'
+          };
+XXXX number of values in list: 4
+Prcessing file: ./utilization__aws.txt
+Skiping Header line.
+1:bluejay:<20>:-20
+2:robin:<30>:-30
+--<HERE 1 dump_into_util_hash>---
+--< Start print_hash Sub >-----
+bluejay,-20
+robin,-30
+0,First Entry/Header.
+---< End print_hash Sub >-----
+--<HERE 2 dump_into_util_hash>---
+Prcessing file: ./utilization__azure.txt
+Skiping Header line.
+1:squid:<85>:-85
+2:tiger:<12>:-12
+3:lion:<67>:-67
+4:finch:<13>:-13
+5:owl:<73>:-73
+6:turtle:<13>:-13
+--<HERE 1 dump_into_util_hash>---
+--< Start print_hash Sub >-----
+lion,-67
+bluejay,-20
+robin,-30
+owl,-73
+squid,-85
+finch,-13
+tiger,-12
+0,First Entry/Header.
+turtle,-13
+---< End print_hash Sub >-----
+--<HERE 2 dump_into_util_hash>---
+Prcessing file: ./utilization__vtdctr.txt
+Skiping Header line.
+1:goat:<300>:-300
+2:mouse:<351>:-351
+3:chicken:<300>:-300
+4:cat:<350>:-350
+--<HERE 1 dump_into_util_hash>---
+--< Start print_hash Sub >-----
+chicken,-300
+lion,-67
+bluejay,-20
+robin,-30
+owl,-73
+squid,-85
+finch,-13
+tiger,-12
+cat,-350
+0,First Entry/Header.
+mouse,-351
+goat,-300
+turtle,-13
+---< End print_hash Sub >-----
+--<HERE 2 dump_into_util_hash>---
+Prcessing file: ./utilization__vtpvt.txt
+Skiping Header line.
+1:pig:<150>:-150
+2:cow:<235>:-235
+3:bat:<100>:-100
+4:ant:<203>:-203
+5:duck:<333>:-333
+6:whale:<105>:-105
+7:dog:<195>:-195
+8:wolf:<250>:-250
+--<HERE 1 dump_into_util_hash>---
+--< Start print_hash Sub >-----
+lion,-67
+robin,-30
+squid,-85
+tiger,-12
+ant,-203
+cat,-350
+cow,-235
+0,First Entry/Header.
+mouse,-351
+goat,-300
+pig,-150
+bat,-100
+chicken,-300
+bluejay,-20
+owl,-73
+duck,-333
+finch,-13
+dog,-195
+wolf,-250
+whale,-105
+turtle,-13
+---< End print_hash Sub >-----
+--<HERE 2 dump_into_util_hash>---
+$VAR1 = {
+          'lion' => -67,
+          'robin' => -30,
+          'squid' => -85,
+          'tiger' => -12,
+          'ant' => -203,
+          'cat' => -350,
+          'cow' => -235,
+          '0' => 'First Entry/Header.',
+          'mouse' => -351,
+          'goat' => -300,
+          'pig' => -150,
+          'bat' => -100,
+          'chicken' => -300,
+          'bluejay' => -20,
+          'owl' => -73,
+          'duck' => -333,
+          'finch' => -13,
+          'dog' => -195,
+          'wolf' => -250,
+          'whale' => -105,
+          'turtle' => -13
+        };
+here dir: ^.^
+here pattern: ^customer^
+--- ./customer_resources__AGR.txt, customer
+--- ./customer_resources__DII.txt, customer
+--- ./customer_resources__NAS.txt, customer
+./customer_resources__AGR.txt
+./customer_resources__DII.txt
+./customer_resources__NAS.txt
+Anon item: ./customer_resources__AGR.txt
+Anon item: ./customer_resources__DII.txt
+Anon item: ./customer_resources__NAS.txt
+Dumper on @cust_res_list
+$VAR1 = [
+          './customer_resources__AGR.txt',
+          './customer_resources__DII.txt',
+          './customer_resources__NAS.txt'
+        ];
+$VAR1 = \{
+            'lion' => -67,
+            'robin' => -30,
+            'squid' => -85,
+            'tiger' => -12,
+            'ant' => -203,
+            'cat' => -350,
+            'cow' => -235,
+            '0' => 'First Entry/Header.',
+            'mouse' => -351,
+            'goat' => -300,
+            'pig' => -150,
+            'bat' => -100,
+            'chicken' => -300,
+            'bluejay' => -20,
+            'owl' => -73,
+            'duck' => -333,
+            'finch' => -13,
+            'dog' => -195,
+            'wolf' => -250,
+            'whale' => -105,
+            'turtle' => -13
+          };
+XXXX number of values in list: 3
+Prcessing file: ./customer_resources__AGR.txt
+name: ^AGR^
+Skiping Header line.
+Skiping Header line.
+Skiping Header line.
+Skiping Header line.
+Skiping Header line.
+Skiping Header line.
+Skiping Header line.
+Skiping Header line.
+1,AGR,VTDC,goat,300,-300,0
+2,AGR,VTDC,mouse,350,-351,-1
+3,AGR,VTPVT,pig,100,-150,-50
+4,AGR,VTPVT,cow,200,-235,-35
+5,AGR,AWS,robin,75,-30,45
+6,AGR,AZ,squid,65,-85,-20
+7,AGR,AZ,tiger,5,-12,-7
+header_string: Number, name, ServiceProvider, ServiceName, ServiceCostBudgeted, CurrentUtilization, Diff
+file_name: AGR
+file_name: AGR.xlsx
+worksheet_name: AGR
+header: AGR - Monthly Utilization Report
+unshifted: 1,AGR,VTDC,goat,300,-300,0,

@@ -1,0 +1,4 @@
+#:ServiceModel,ServiceDesc,ServerSize,ServerCost(per month)
+HP1-PHY,PHY,p0,300
+HP2-PHY,PHY,p1,350
+HP3-PHY,PHY,p2,600

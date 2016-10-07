@@ -1,0 +1,5 @@
+#:CustomerName,ServerName,Location,Cost
+AGR,goat,NL,3000
+AGR,mouse,NL,3500
+NAS,chicken,NL,3000
+NAS,cat,TV,3500

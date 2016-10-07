@@ -1,0 +1,661 @@
+$VAR1 = {
+          '0' => 'First Entry/Header.'
+        };
+---< Start >----
+here dir: ^.^
+here pattern: ^utili^
+--- ./utilization__aws.txt, utili
+--- ./utilization__azure.txt, utili
+--- ./utilization__azuregov.txt, utili
+--- ./utilization__vtdctr.txt, utili
+--- ./utilization__vtpvt.txt, utili
+./utilization__aws.txt
+./utilization__azure.txt
+./utilization__azuregov.txt
+./utilization__vtdctr.txt
+./utilization__vtpvt.txt
+Anon item: ./utilization__aws.txt
+Anon item: ./utilization__azure.txt
+Anon item: ./utilization__azuregov.txt
+Anon item: ./utilization__vtdctr.txt
+Anon item: ./utilization__vtpvt.txt
+Dumper
+$VAR1 = {
+          '0' => 'First Entry/Header.'
+        };
+$VAR1 = \{
+            '0' => 'First Entry/Header.'
+          };
+XXXX number of values in list: 5
+Prcessing file: ./utilization__aws.txt
+Skiping Header line.
+1:bluejay:<20>:-20
+2:robin:<30>:-30
+--<HERE 1 dump_into_util_hash>---
+--< Start print_hash Sub >-----
+bluejay,-20
+robin,-30
+0,First Entry/Header.
+---< End print_hash Sub >-----
+--<HERE 2 dump_into_util_hash>---
+Prcessing file: ./utilization__azure.txt
+Skiping Header line.
+1:squid:<85>:-85
+2:tiger:<12>:-12
+3:lion:<67>:-67
+4:finch:<13>:-13
+5:owl:<73>:-73
+6:turtle:<13>:-13
+--<HERE 1 dump_into_util_hash>---
+--< Start print_hash Sub >-----
+lion,-67
+bluejay,-20
+robin,-30
+owl,-73
+squid,-85
+finch,-13
+tiger,-12
+0,First Entry/Header.
+turtle,-13
+---< End print_hash Sub >-----
+--<HERE 2 dump_into_util_hash>---
+Prcessing file: ./utilization__azuregov.txt
+Skiping Header line.
+1:squid5:<>:0
+2:tiger3:<12>:-12
+3:lion3:<67>:-67
+4:finch2:<13>:-13
+5:owl3:<73>:-73
+6:turtle6:<13>:-13
+--<HERE 1 dump_into_util_hash>---
+--< Start print_hash Sub >-----
+lion,-67
+owl3,-73
+finch2,-13
+bluejay,-20
+turtle6,-13
+robin,-30
+owl,-73
+squid,-85
+finch,-13
+tiger,-12
+lion3,-67
+squid5,0
+0,First Entry/Header.
+tiger3,-12
+turtle,-13
+---< End print_hash Sub >-----
+--<HERE 2 dump_into_util_hash>---
+Prcessing file: ./utilization__vtdctr.txt
+Skiping Header line.
+1:goat:<300>:-300
+2:mouse:<351>:-351
+3:chicken:<300>:-300
+4:cat:<350>:-350
+--<HERE 1 dump_into_util_hash>---
+--< Start print_hash Sub >-----
+lion,-67
+owl3,-73
+robin,-30
+squid,-85
+tiger,-12
+cat,-350
+0,First Entry/Header.
+mouse,-351
+goat,-300
+tiger3,-12
+chicken,-300
+bluejay,-20
+finch2,-13
+turtle6,-13
+owl,-73
+finch,-13
+lion3,-67
+squid5,0
+turtle,-13
+---< End print_hash Sub >-----
+--<HERE 2 dump_into_util_hash>---
+Prcessing file: ./utilization__vtpvt.txt
+Skiping Header line.
+1:pig:<150>:-150
+2:cow:<235>:-235
+3:bat:<100>:-100
+4:ant:<203>:-203
+5:duck:<333>:-333
+6:whale:<105>:-105
+7:dog:<195>:-195
+8:wolf:<250>:-250
+--<HERE 1 dump_into_util_hash>---
+--< Start print_hash Sub >-----
+lion,-67
+owl3,-73
+robin,-30
+squid,-85
+tiger,-12
+ant,-203
+cat,-350
+cow,-235
+0,First Entry/Header.
+mouse,-351
+goat,-300
+pig,-150
+tiger3,-12
+bat,-100
+chicken,-300
+bluejay,-20
+finch2,-13
+turtle6,-13
+owl,-73
+duck,-333
+finch,-13
+lion3,-67
+squid5,0
+dog,-195
+wolf,-250
+whale,-105
+turtle,-13
+---< End print_hash Sub >-----
+--<HERE 2 dump_into_util_hash>---
+$VAR1 = {
+          'lion' => -67,
+          'owl3' => -73,
+          'robin' => -30,
+          'squid' => -85,
+          'tiger' => -12,
+          'ant' => -203,
+          'cat' => -350,
+          'cow' => -235,
+          '0' => 'First Entry/Header.',
+          'mouse' => -351,
+          'goat' => -300,
+          'pig' => -150,
+          'tiger3' => -12,
+          'bat' => -100,
+          'chicken' => -300,
+          'bluejay' => -20,
+          'finch2' => -13,
+          'turtle6' => -13,
+          'owl' => -73,
+          'duck' => -333,
+          'finch' => -13,
+          'lion3' => -67,
+          'squid5' => '0',
+          'dog' => -195,
+          'wolf' => -250,
+          'whale' => -105,
+          'turtle' => -13
+        };
+here dir: ^.^
+here pattern: ^customer^
+--- ./customer_resources__AGR.txt, customer
+--- ./customer_resources__DII.txt, customer
+--- ./customer_resources__NAS.txt, customer
+./customer_resources__AGR.txt
+./customer_resources__DII.txt
+./customer_resources__NAS.txt
+Anon item: ./customer_resources__AGR.txt
+Anon item: ./customer_resources__DII.txt
+Anon item: ./customer_resources__NAS.txt
+Dumper on @cust_res_list
+$VAR1 = [
+          './customer_resources__AGR.txt',
+          './customer_resources__DII.txt',
+          './customer_resources__NAS.txt'
+        ];
+$VAR1 = \{
+            'lion' => -67,
+            'owl3' => -73,
+            'robin' => -30,
+            'squid' => -85,
+            'tiger' => -12,
+            'ant' => -203,
+            'cat' => -350,
+            'cow' => -235,
+            '0' => 'First Entry/Header.',
+            'mouse' => -351,
+            'goat' => -300,
+            'pig' => -150,
+            'tiger3' => -12,
+            'bat' => -100,
+            'chicken' => -300,
+            'bluejay' => -20,
+            'finch2' => -13,
+            'turtle6' => -13,
+            'owl' => -73,
+            'duck' => -333,
+            'finch' => -13,
+            'lion3' => -67,
+            'squid5' => '0',
+            'dog' => -195,
+            'wolf' => -250,
+            'whale' => -105,
+            'turtle' => -13
+          };
+XXXX number of values in list: 3
+Prcessing file: ./customer_resources__AGR.txt
+name: ^AGR^
+check_budget_against_util_hash sub: Opening file: ./customer_resources__AGR.txt
+Skipping Header line.
+Skipping Header line.
+Skipping Header line.
+Skipping Header line.
+Skipping Header line.
+Skipping Header line.
+Skipping Header line.
+Skipping Header line.
+1,AGR,VTDC,PHY,goat,300,-300,0,0
+2,AGR,VTDC,PHY,mouse,350,-351,-1,-1
+3,AGR,VTPVT,IaaS,pig,100,-150,-50,-51
+4,AGR,VTPVT,IaaS,cow,200,-235,-35,-86
+5,AGR,AWS,IaaS,robin,75,-30,45,-41
+6,AGR,AZ,IaaS,squid,65,-85,-20,-61
+7,AGR,AZ,XaaS,tiger,5,-12,-7,-68
+8,AGR,AZ,IaaS,squid5,65,0,65,-3,-No current util data this period.
+9,AGR,AZ,XaaS,tiger3,5,-12,-7,-10
+header_string: Number,AgencyName,ServiceProvider,ServiceType,ServiceName,ServiceCostBudgeted,CurrentUtilization,Diff,RunningTotal,Note
+$test: Number,AgencyName,ServiceProvider,ServiceType,ServiceName,ServiceCostBudgeted,CurrentUtilization,Diff,RunningTotal,Note
+$test: 1,AGR,VTDC,PHY,goat,300,-300,0,0,
+$test: 2,AGR,VTDC,PHY,mouse,350,-351,-1,-1,
+$test: 3,AGR,VTPVT,IaaS,pig,100,-150,-50,-51,
+$test: 4,AGR,VTPVT,IaaS,cow,200,-235,-35,-86,
+$test: 5,AGR,AWS,IaaS,robin,75,-30,45,-41,
+$test: 6,AGR,AZ,IaaS,squid,65,-85,-20,-61,
+$test: 7,AGR,AZ,XaaS,tiger,5,-12,-7,-68,
+$test: 8,AGR,AZ,IaaS,squid5,65,0,65,-3,-No current util data this period.,
+$test: 9,AGR,AZ,XaaS,tiger3,5,-12,-7,-10,
+file_name: AGR
+file_name: AGR.xlsx
+worksheet_name: AGR
+header: AGR - Monthly Utilization Report
+unshifted: Number,AgencyName,ServiceProvider,ServiceType,ServiceName,ServiceCostBudgeted,CurrentUtilization,Diff,RunningTotal,Note
+creat_xls: Number,AgencyName,ServiceProvider,ServiceType,ServiceName,ServiceCostBudgeted,CurrentUtilization,Diff,RunningTotal,Note
+write line: 3, 2, Number
+write line: 3, 3, AgencyName
+write line: 3, 4, ServiceProvider
+write line: 3, 5, ServiceType
+write line: 3, 6, ServiceName
+write line: 3, 7, ServiceCostBudgeted
+write line: 3, 8, CurrentUtilization
+write line: 3, 9, Diff
+write line: 3, 10, RunningTotal
+write line: 3, 11, Note
+creat_xls: 1,AGR,VTDC,PHY,goat,300,-300,0,0,
+write line: 4, 2, 1
+write line: 4, 3, AGR
+write line: 4, 4, VTDC
+write line: 4, 5, PHY
+write line: 4, 6, goat
+write line: 4, 7, 300
+write line: 4, 8, -300
+write line: 4, 9, 0
+write line: 4, 10, 0
+creat_xls: 2,AGR,VTDC,PHY,mouse,350,-351,-1,-1,
+write line: 5, 2, 2
+write line: 5, 3, AGR
+write line: 5, 4, VTDC
+write line: 5, 5, PHY
+write line: 5, 6, mouse
+write line: 5, 7, 350
+write line: 5, 8, -351
+write line: 5, 9, -1
+write line: 5, 10, -1
+creat_xls: 3,AGR,VTPVT,IaaS,pig,100,-150,-50,-51,
+write line: 6, 2, 3
+write line: 6, 3, AGR
+write line: 6, 4, VTPVT
+write line: 6, 5, IaaS
+write line: 6, 6, pig
+write line: 6, 7, 100
+write line: 6, 8, -150
+write line: 6, 9, -50
+write line: 6, 10, -51
+creat_xls: 4,AGR,VTPVT,IaaS,cow,200,-235,-35,-86,
+write line: 7, 2, 4
+write line: 7, 3, AGR
+write line: 7, 4, VTPVT
+write line: 7, 5, IaaS
+write line: 7, 6, cow
+write line: 7, 7, 200
+write line: 7, 8, -235
+write line: 7, 9, -35
+write line: 7, 10, -86
+creat_xls: 5,AGR,AWS,IaaS,robin,75,-30,45,-41,
+write line: 8, 2, 5
+write line: 8, 3, AGR
+write line: 8, 4, AWS
+write line: 8, 5, IaaS
+write line: 8, 6, robin
+write line: 8, 7, 75
+write line: 8, 8, -30
+write line: 8, 9, 45
+write line: 8, 10, -41
+creat_xls: 6,AGR,AZ,IaaS,squid,65,-85,-20,-61,
+write line: 9, 2, 6
+write line: 9, 3, AGR
+write line: 9, 4, AZ
+write line: 9, 5, IaaS
+write line: 9, 6, squid
+write line: 9, 7, 65
+write line: 9, 8, -85
+write line: 9, 9, -20
+write line: 9, 10, -61
+creat_xls: 7,AGR,AZ,XaaS,tiger,5,-12,-7,-68,
+write line: 10, 2, 7
+write line: 10, 3, AGR
+write line: 10, 4, AZ
+write line: 10, 5, XaaS
+write line: 10, 6, tiger
+write line: 10, 7, 5
+write line: 10, 8, -12
+write line: 10, 9, -7
+write line: 10, 10, -68
+creat_xls: 8,AGR,AZ,IaaS,squid5,65,0,65,-3,-No current util data this period.,
+write line: 11, 2, 8
+write line: 11, 3, AGR
+write line: 11, 4, AZ
+write line: 11, 5, IaaS
+write line: 11, 6, squid5
+write line: 11, 7, 65
+write line: 11, 8, 0
+write line: 11, 9, 65
+write line: 11, 10, -3
+write line: 11, 11, -No current util data this period.
+creat_xls: 9,AGR,AZ,XaaS,tiger3,5,-12,-7,-10,
+write line: 12, 2, 9
+write line: 12, 3, AGR
+write line: 12, 4, AZ
+write line: 12, 5, XaaS
+write line: 12, 6, tiger3
+write line: 12, 7, 5
+write line: 12, 8, -12
+write line: 12, 9, -7
+write line: 12, 10, -10
+Prcessing file: ./customer_resources__DII.txt
+name: ^DII^
+check_budget_against_util_hash sub: Opening file: ./customer_resources__DII.txt
+Skipping Header line.
+Skipping Header line.
+Skipping Header line.
+Skipping Header line.
+Skipping Header line.
+Skipping Header line.
+1,DII,VTPVT,IaaS,bat,100,-100,0,0
+2,DII,VTPVT,IaaS,ant,200,-203,-3,-3
+3,DII,VTPVT,IaaS,duck,300,-333,-33,-36
+4,DII,AWS,IaaS,bluejay,14,-20,-6,-42
+5,DII,AZ,IaaS,lion,65,-67,-2,-44
+6,DII,AZ,XaaS,finch,5,-13,-8,-52
+7,DII,AZ,IaaS,lion3,65,-67,-2,-54
+8,DII,AZ,XaaS,finch2,5,-13,-8,-62
+Skipping blank line
+header_string: Number,AgencyName,ServiceProvider,ServiceType,ServiceName,ServiceCostBudgeted,CurrentUtilization,Diff,RunningTotal,Note
+$test: Number,AgencyName,ServiceProvider,ServiceType,ServiceName,ServiceCostBudgeted,CurrentUtilization,Diff,RunningTotal,Note
+$test: 1,DII,VTPVT,IaaS,bat,100,-100,0,0,
+$test: 2,DII,VTPVT,IaaS,ant,200,-203,-3,-3,
+$test: 3,DII,VTPVT,IaaS,duck,300,-333,-33,-36,
+$test: 4,DII,AWS,IaaS,bluejay,14,-20,-6,-42,
+$test: 5,DII,AZ,IaaS,lion,65,-67,-2,-44,
+$test: 6,DII,AZ,XaaS,finch,5,-13,-8,-52,
+$test: 7,DII,AZ,IaaS,lion3,65,-67,-2,-54,
+$test: 8,DII,AZ,XaaS,finch2,5,-13,-8,-62,
+file_name: DII
+file_name: DII.xlsx
+worksheet_name: DII
+header: DII - Monthly Utilization Report
+unshifted: Number,AgencyName,ServiceProvider,ServiceType,ServiceName,ServiceCostBudgeted,CurrentUtilization,Diff,RunningTotal,Note
+creat_xls: Number,AgencyName,ServiceProvider,ServiceType,ServiceName,ServiceCostBudgeted,CurrentUtilization,Diff,RunningTotal,Note
+write line: 3, 2, Number
+write line: 3, 3, AgencyName
+write line: 3, 4, ServiceProvider
+write line: 3, 5, ServiceType
+write line: 3, 6, ServiceName
+write line: 3, 7, ServiceCostBudgeted
+write line: 3, 8, CurrentUtilization
+write line: 3, 9, Diff
+write line: 3, 10, RunningTotal
+write line: 3, 11, Note
+creat_xls: 1,DII,VTPVT,IaaS,bat,100,-100,0,0,
+write line: 4, 2, 1
+write line: 4, 3, DII
+write line: 4, 4, VTPVT
+write line: 4, 5, IaaS
+write line: 4, 6, bat
+write line: 4, 7, 100
+write line: 4, 8, -100
+write line: 4, 9, 0
+write line: 4, 10, 0
+creat_xls: 2,DII,VTPVT,IaaS,ant,200,-203,-3,-3,
+write line: 5, 2, 2
+write line: 5, 3, DII
+write line: 5, 4, VTPVT
+write line: 5, 5, IaaS
+write line: 5, 6, ant
+write line: 5, 7, 200
+write line: 5, 8, -203
+write line: 5, 9, -3
+write line: 5, 10, -3
+creat_xls: 3,DII,VTPVT,IaaS,duck,300,-333,-33,-36,
+write line: 6, 2, 3
+write line: 6, 3, DII
+write line: 6, 4, VTPVT
+write line: 6, 5, IaaS
+write line: 6, 6, duck
+write line: 6, 7, 300
+write line: 6, 8, -333
+write line: 6, 9, -33
+write line: 6, 10, -36
+creat_xls: 4,DII,AWS,IaaS,bluejay,14,-20,-6,-42,
+write line: 7, 2, 4
+write line: 7, 3, DII
+write line: 7, 4, AWS
+write line: 7, 5, IaaS
+write line: 7, 6, bluejay
+write line: 7, 7, 14
+write line: 7, 8, -20
+write line: 7, 9, -6
+write line: 7, 10, -42
+creat_xls: 5,DII,AZ,IaaS,lion,65,-67,-2,-44,
+write line: 8, 2, 5
+write line: 8, 3, DII
+write line: 8, 4, AZ
+write line: 8, 5, IaaS
+write line: 8, 6, lion
+write line: 8, 7, 65
+write line: 8, 8, -67
+write line: 8, 9, -2
+write line: 8, 10, -44
+creat_xls: 6,DII,AZ,XaaS,finch,5,-13,-8,-52,
+write line: 9, 2, 6
+write line: 9, 3, DII
+write line: 9, 4, AZ
+write line: 9, 5, XaaS
+write line: 9, 6, finch
+write line: 9, 7, 5
+write line: 9, 8, -13
+write line: 9, 9, -8
+write line: 9, 10, -52
+creat_xls: 7,DII,AZ,IaaS,lion3,65,-67,-2,-54,
+write line: 10, 2, 7
+write line: 10, 3, DII
+write line: 10, 4, AZ
+write line: 10, 5, IaaS
+write line: 10, 6, lion3
+write line: 10, 7, 65
+write line: 10, 8, -67
+write line: 10, 9, -2
+write line: 10, 10, -54
+creat_xls: 8,DII,AZ,XaaS,finch2,5,-13,-8,-62,
+write line: 11, 2, 8
+write line: 11, 3, DII
+write line: 11, 4, AZ
+write line: 11, 5, XaaS
+write line: 11, 6, finch2
+write line: 11, 7, 5
+write line: 11, 8, -13
+write line: 11, 9, -8
+write line: 11, 10, -62
+Prcessing file: ./customer_resources__NAS.txt
+name: ^NAS^
+check_budget_against_util_hash sub: Opening file: ./customer_resources__NAS.txt
+Skipping Header line.
+Skipping Header line.
+Skipping Header line.
+Skipping Header line.
+Skipping Header line.
+Skipping Header line.
+1,NAS,VTDC,PHY,chicken,300,-300,0,0
+2,NAS,VTDC,PHY,cat,350,-350,0,0
+3,NAS,VTPVT,IaaS,whale,100,-105,-5,-5
+4,NAS,VTPVT,IaaS,dog,200,-195,5,0
+5,NAS,VTPVT,IaaS,wolf,300,-250,50,50
+6,NAS,AZ,IaaS,owl,65,-73,-8,42
+7,NAS,AZ,XaaS,turtle,5,-13,-8,34
+8,NAS,AZ,IaaS,owl3,65,-73,-8,26
+9,NAS,AZ,XaaS,turtle6,5,-13,-8,18
+header_string: Number,AgencyName,ServiceProvider,ServiceType,ServiceName,ServiceCostBudgeted,CurrentUtilization,Diff,RunningTotal,Note
+$test: Number,AgencyName,ServiceProvider,ServiceType,ServiceName,ServiceCostBudgeted,CurrentUtilization,Diff,RunningTotal,Note
+$test: 1,NAS,VTDC,PHY,chicken,300,-300,0,0,
+$test: 2,NAS,VTDC,PHY,cat,350,-350,0,0,
+$test: 3,NAS,VTPVT,IaaS,whale,100,-105,-5,-5,
+$test: 4,NAS,VTPVT,IaaS,dog,200,-195,5,0,
+$test: 5,NAS,VTPVT,IaaS,wolf,300,-250,50,50,
+$test: 6,NAS,AZ,IaaS,owl,65,-73,-8,42,
+$test: 7,NAS,AZ,XaaS,turtle,5,-13,-8,34,
+$test: 8,NAS,AZ,IaaS,owl3,65,-73,-8,26,
+$test: 9,NAS,AZ,XaaS,turtle6,5,-13,-8,18,
+file_name: NAS
+file_name: NAS.xlsx
+worksheet_name: NAS
+header: NAS - Monthly Utilization Report
+unshifted: Number,AgencyName,ServiceProvider,ServiceType,ServiceName,ServiceCostBudgeted,CurrentUtilization,Diff,RunningTotal,Note
+creat_xls: Number,AgencyName,ServiceProvider,ServiceType,ServiceName,ServiceCostBudgeted,CurrentUtilization,Diff,RunningTotal,Note
+write line: 3, 2, Number
+write line: 3, 3, AgencyName
+write line: 3, 4, ServiceProvider
+write line: 3, 5, ServiceType
+write line: 3, 6, ServiceName
+write line: 3, 7, ServiceCostBudgeted
+write line: 3, 8, CurrentUtilization
+write line: 3, 9, Diff
+write line: 3, 10, RunningTotal
+write line: 3, 11, Note
+creat_xls: 1,NAS,VTDC,PHY,chicken,300,-300,0,0,
+write line: 4, 2, 1
+write line: 4, 3, NAS
+write line: 4, 4, VTDC
+write line: 4, 5, PHY
+write line: 4, 6, chicken
+write line: 4, 7, 300
+write line: 4, 8, -300
+write line: 4, 9, 0
+write line: 4, 10, 0
+creat_xls: 2,NAS,VTDC,PHY,cat,350,-350,0,0,
+write line: 5, 2, 2
+write line: 5, 3, NAS
+write line: 5, 4, VTDC
+write line: 5, 5, PHY
+write line: 5, 6, cat
+write line: 5, 7, 350
+write line: 5, 8, -350
+write line: 5, 9, 0
+write line: 5, 10, 0
+creat_xls: 3,NAS,VTPVT,IaaS,whale,100,-105,-5,-5,
+write line: 6, 2, 3
+write line: 6, 3, NAS
+write line: 6, 4, VTPVT
+write line: 6, 5, IaaS
+write line: 6, 6, whale
+write line: 6, 7, 100
+write line: 6, 8, -105
+write line: 6, 9, -5
+write line: 6, 10, -5
+creat_xls: 4,NAS,VTPVT,IaaS,dog,200,-195,5,0,
+write line: 7, 2, 4
+write line: 7, 3, NAS
+write line: 7, 4, VTPVT
+write line: 7, 5, IaaS
+write line: 7, 6, dog
+write line: 7, 7, 200
+write line: 7, 8, -195
+write line: 7, 9, 5
+write line: 7, 10, 0
+creat_xls: 5,NAS,VTPVT,IaaS,wolf,300,-250,50,50,
+write line: 8, 2, 5
+write line: 8, 3, NAS
+write line: 8, 4, VTPVT
+write line: 8, 5, IaaS
+write line: 8, 6, wolf
+write line: 8, 7, 300
+write line: 8, 8, -250
+write line: 8, 9, 50
+write line: 8, 10, 50
+creat_xls: 6,NAS,AZ,IaaS,owl,65,-73,-8,42,
+write line: 9, 2, 6
+write line: 9, 3, NAS
+write line: 9, 4, AZ
+write line: 9, 5, IaaS
+write line: 9, 6, owl
+write line: 9, 7, 65
+write line: 9, 8, -73
+write line: 9, 9, -8
+write line: 9, 10, 42
+creat_xls: 7,NAS,AZ,XaaS,turtle,5,-13,-8,34,
+write line: 10, 2, 7
+write line: 10, 3, NAS
+write line: 10, 4, AZ
+write line: 10, 5, XaaS
+write line: 10, 6, turtle
+write line: 10, 7, 5
+write line: 10, 8, -13
+write line: 10, 9, -8
+write line: 10, 10, 34
+creat_xls: 8,NAS,AZ,IaaS,owl3,65,-73,-8,26,
+write line: 11, 2, 8
+write line: 11, 3, NAS
+write line: 11, 4, AZ
+write line: 11, 5, IaaS
+write line: 11, 6, owl3
+write line: 11, 7, 65
+write line: 11, 8, -73
+write line: 11, 9, -8
+write line: 11, 10, 26
+creat_xls: 9,NAS,AZ,XaaS,turtle6,5,-13,-8,18,
+write line: 12, 2, 9
+write line: 12, 3, NAS
+write line: 12, 4, AZ
+write line: 12, 5, XaaS
+write line: 12, 6, turtle6
+write line: 12, 7, 5
+write line: 12, 8, -13
+write line: 12, 9, -8
+write line: 12, 10, 18
+$VAR1 = {
+          'lion' => -67,
+          'owl3' => -73,
+          'robin' => -30,
+          'squid' => -85,
+          'tiger' => -12,
+          'ant' => -203,
+          'cat' => -350,
+          'cow' => -235,
+          '0' => 'First Entry/Header.',
+          'mouse' => -351,
+          'goat' => -300,
+          'pig' => -150,
+          'tiger3' => -12,
+          'bat' => -100,
+          'chicken' => -300,
+          'bluejay' => -20,
+          'finch2' => -13,
+          'turtle6' => -13,
+          'owl' => -73,
+          'duck' => -333,
+          'finch' => -13,
+          'lion3' => -67,
+          'squid5' => '0',
+          'dog' => -195,
+          'wolf' => -250,
+          'whale' => -105,
+          'turtle' => -13
+        };
+---< End >----

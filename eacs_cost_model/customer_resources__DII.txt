@@ -1,0 +1,15 @@
+#:ServiceProvider,ServiceName,ServiceType,ServiceCost(monthly)
+#ServiceProvider = [VTPVT,VTDC,AZ,AWS,Etc.]
+# ServiceName =
+#  ServiceType = [IaaS,XaaS,PaaS,SaaS] 
+#
+#                
+VTPVT,bat,IaaS,VTPVT1,100
+VTPVT,ant,IaaS,VTPVT2,200
+VTPVT,duck,IaaS,VTPVT3,300
+AWS,bluejay,IaaS,Linux_t2small,14
+AZ,lion,IaaS,A2,65
+AZ,finch,XaaS,Single,5
+AZ,lion3,IaaS,A2,65
+AZ,finch2,XaaS,Single,5
+

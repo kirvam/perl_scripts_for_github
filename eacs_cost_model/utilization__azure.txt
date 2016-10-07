@@ -1,0 +1,7 @@
+#:ItemNumber,ServiceName,ServiceUtilzation(monthly cost)
+1,squid,85
+2,tiger,12
+3,lion,67
+4,finch,13
+5,owl,73
+6,turtle,13

@@ -1,0 +1,17 @@
+#:ServiceProvider,ServiceName,ServiceType,ServiceProductName,ServiceCostBudgeted(monthly)
+#ServiceProvider = [VTPVT,VTDC,AZ,AWS,Etc.]
+# ServiceName =
+#  ServiceType = [IaaS,XaaS,PaaS,SaaS] 
+#   ServiceProductName = Product Id from Cloud Provider
+#    ServiceCostBudgeted(monthly) = Budgeted/Planned
+#ServiceProvider,ServiceName,ServiceType,ServiceProductName,ServiceCostBudgeted(monthly)                
+#VTPVT,cow,IaaS,VTPVT2,200
+VTDC,goat,PHY,p0,300
+VTDC,mouse,PHY,p1,350
+VTPVT,pig,IaaS,VTPVT1,100
+VTPVT,cow,IaaS,VTPVT2,200
+AWS,robin,IaaS,Linux_t2small,75
+AZ,squid,IaaS,A2,65
+AZ,tiger,XaaS,Single,5
+AZ,squid5,IaaS,A2,65
+AZ,tiger3,XaaS,Single,5

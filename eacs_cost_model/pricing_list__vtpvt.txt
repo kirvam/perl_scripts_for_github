@@ -1,0 +1,4 @@
+#:ServiceModel,ServiceDesc,ServerSize,ServerCost(per month)
+IaaS,VM,VTPVT1,100
+IaaS,VM,VTPVT2,200
+IaaS,VM,VTPVT3,300

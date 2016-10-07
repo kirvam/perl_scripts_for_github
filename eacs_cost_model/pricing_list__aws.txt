@@ -1,0 +1,14 @@
+#:ServiceModel,ServiceDesc,ServerSize,ServerCost(per month)
+IaaS,VM,Linux_t2nano,3
+IaaS,VM,Linux_t2micro,7
+IaaS,VM,Linux_t2small,14
+IaaS,VM,Redhat_t2nano,50
+IaaS,VM,Redhat_t2micro,56
+IaaS,VM,Redhat_t2small,70
+IaaS,VM,Win_t2nano,5
+IaaS,VM,Win_t2micro,11
+IaaS,VM,Win_t2small,24
+XaaS,Win_Sql_DBMS,m4_large,500
+XaaS,Win_Sql_DBMS,m4_xlarge,700
+XaaS,Win_Sql_DBMS,m4_2xlarge,1400
+ 

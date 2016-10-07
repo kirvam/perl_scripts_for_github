@@ -1,0 +1,9 @@
+#:CustomerName,ServerName,Location,Cost
+AGR,pig,NL,1000
+AGR,cow,TV,1500
+DII,bat,NL,2000
+DII,ant,TV,1000
+DII,duck,TV,2000
+NAS,whale,NL,3000
+NAS,dog,TV,2500
+NAS,wolf,TV,3000

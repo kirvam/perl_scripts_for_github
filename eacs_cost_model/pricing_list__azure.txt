@@ -1,0 +1,9 @@
+#:ServiceModel,ServiceDesc,ServerSize,ServerCost(per month)
+IaaS,VM,A0,13
+IaaS,VM,A1,33
+IaaS,VM,A2,65
+XaaS,WEB,BASIC,55
+XaaS,WEB,STD,75
+XaaS,WEB,PREM,223
+XaaS,DBMS,Single,5
+XaaS,DBMS,Single_ELASTIC,144

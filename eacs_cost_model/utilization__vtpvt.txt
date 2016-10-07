@@ -1,0 +1,9 @@
+#:ItemNumber,ServiceName,ServiceUtilization(monthly)
+1,pig,150
+2,cow,235
+3,bat,100
+4,ant,203
+5,duck,333
+6,whale,105
+7,dog,195
+8,wolf,250
